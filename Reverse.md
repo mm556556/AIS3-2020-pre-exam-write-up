@@ -124,3 +124,23 @@ W = .. .        (2,1)
 最後再對照第二份檔案即可得到 flag
 ```
 AIS3{y3s_y0u_h4ve_s4w_7h1s_ch4ll3ng3_bef0r3_bu7_its_m0r3_looooooooooooooooooong_7h1s_t1m3}
+
+
+
+###  **Stand up!Brain (62 Solves ; point: 455)**
+    又到了 Brain tell 咪 ㄜ joke 的時間了
+    這次輪到你說個笑話來聽聽了
+
+把題目給的檔案丟到 IDA PRO， shift+F12 ，看到一串怪怪的東西，直覺是 brainfuck 之類的。
+
+![](https://i.imgur.com/YO2bqkT.png)
+
+用[線上工具](https://www.dcode.fr/brainfuck-language)解密
+```
+AIS3{Th1s_1s_br4iNFUCK_bu7_m0r3_ez}
+```
+這題運氣很好的拿到 first blood ，但~~這也是包裝成 reverse 的 crypto 啊喂~~！！
+
+![](https://i.imgur.com/NS7Dq7g.png)
+
+
